@@ -1,0 +1,24 @@
+name = "Wowchemy Widget Pages"
+license = "MIT"
+licenselink = ""
+description = "Jean Yves KIOYE homepage"
+homepage = "https://github.com/wowchemy/wowchemy-hugo-themes"
+demosite = "https://hugo-academic-pages.netlify.app/"
+tags = ["widgets",
+        "portfolio",
+        "responsive",
+        "company",
+        "blog",
+        "minimal",
+        "dark",
+        "multilingual",
+        "landing page",
+        "one page",
+        "customizable"
+        ]
+features = ["page builder", "widgets", "color themes", "dark mode", "customizable", "filterable portfolio",
+            "blog", "create landing pages", "gallery", "contact form"]
+
+[author]
+  name = "KIOYE Togo Jean Yves"
+  homepage = ""
