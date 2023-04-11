@@ -5,7 +5,7 @@ theme: ""
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: KIOYE Jean Yves # Website name
-baseURL: 'https://KIOYEJeanYves.com/' # Website URL
+baseURL: 'https://kioye-jean-yves.github.io/jeanyveskioye/' # Website URL
 
 ############################
 ## LANGUAGE
