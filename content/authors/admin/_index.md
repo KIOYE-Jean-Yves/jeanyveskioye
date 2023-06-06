@@ -54,6 +54,6 @@ title: Togo Jean Yves KIOYE
 
 Togo Jean Yves KIOYE is a PhD student in biostatistics at [Unité Mixte de recherche sur le Fromage](https://www6.clermont.inrae.fr/umrf) Laboratory of [Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)](https://www.inrae.fr/). He has the opportunity to be supervised by [Paul-Marie GROLLEMUND](https://pmgrollemund.github.io/homepage/index.html), [Jocelyn CHAUVET](https://jocelynchauvet.wixsite.com/phdstat) and Christophe CHASSARD. Jean Yves holds a Master's degree in Applied Statistics and Decision Analysis from the [University of Caen Normandy](https://www.info.unicaen.fr/master/maths/saad) and is pursuing a PhD in applied mathematics on the study of microbial communities involved in the milk production process.
 {style="text-align: justify;"}
-His research aims to develop methods for selecting variables in a Poisson Log-Normal (PLN) model to improve the understanding of agricultural practices and environmental factors that may explain what underlies milk quality. The research is conducted within the framework of the [HOLOFLUX metaprogram](https://www6.inrae.fr/holoflux).
+His research aims to develop methods for selecting variables in Poisson Log-Normal (PLN) model to improve the understanding of agricultural practices and environmental factors that may explain what underlies milk quality.
 {style="text-align: justify;"}
 
