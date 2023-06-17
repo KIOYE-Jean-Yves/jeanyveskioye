@@ -45,6 +45,15 @@
     {{ $style := slice $css_custom | resources.Concat "css/reveal_custom.css" | resources.Minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ end }}
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TWWW1C5G8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6TWWW1C5G8');
+</script>
 </head>
 <body>
 
