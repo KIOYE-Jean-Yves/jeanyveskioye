@@ -1,30 +1,58 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{/* Check that page is built (has a URL) and is not private. */}}
-  {{ range where (where .Data.Pages "Permalink" "!=" "") "Params.private" "ne" true }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    {{- if not .Lastmod.IsZero }}<lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
-    {{- with .Sitemap.ChangeFreq }}<changefreq>{{ . }}</changefreq>{{ end }}
-    {{- if ge .Sitemap.Priority 0.0 }}<priority>{{ .Sitemap.Priority }}</priority>{{ end }}
-    {{- if .IsTranslated -}}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    {{- range .Translations -}}
-    <xhtml:link
-      rel="alternate"
-      hreflang="{{ .Language.Lang }}"
-      href="{{ .Permalink }}"
-    />
-    {{- end -}}
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="{{ .Language.Lang }}"
-      href="{{ .Permalink }}"
-    />
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/</loc>
+  <lastmod>2023-06-07T17:59:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/publication/</loc>
+  <lastmod>2023-06-07T17:59:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/publication/preprint/</loc>
+  <lastmod>2023-06-07T17:59:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/publication/conference-paper/</loc>
+  <lastmod>2023-06-07T17:59:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/publication/conference-paper/conference-paper.pdf</loc>
+  <lastmod>2023-06-07T17:59:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/publication/journal-article/</loc>
+  <lastmod>2023-06-07T17:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/talk/an-example-of-teachings/</loc>
+  <lastmod>2023-06-07T17:59:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/tag/source-themes/</loc>
+  <lastmod>2023-06-07T17:59:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kioye-jean-yves.github.io/jeanyveskioye/project/example/</loc>
+  <lastmod>2023-06-07T17:59:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-    {{- end -}}
-  </url>
-  {{- end -}}
+
 </urlset>
