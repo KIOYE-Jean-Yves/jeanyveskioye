@@ -5,7 +5,7 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: KIOYE Togo Jean Yves # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: https://KIOYE-Jean-Yves.github.io/jeanyveskioye # Website URL
 
 ############################
 ## LANGUAGE
