@@ -25,7 +25,7 @@ tags:
 # - Regularization
 # - smooth information criterion
 # - Microbial communities
-title: Oral presentation: Colloque de IUT Clermont Auvergne 2023, Aurillac.
+title: Oral presentation Colloque de IUT Clermont Auvergne 2023, Aurillac.
 url_code: ""
 url_dataset: ""
 url_pdf: https://drive.google.com/file/d/1faSzJvOBg6o2Cfl7dYoAAjrOVs6AFibG/view

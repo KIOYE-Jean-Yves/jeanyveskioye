@@ -23,7 +23,7 @@ tags:
 # - Regularization
 # - smooth information criterion
 # - Microbial communities
-title: Oral presentation: Journées de Statistique 2023, Université libre de Bruxelles (ULB).
+title: Oral presentation Journées de Statistique 2023, Université libre de Bruxelles (ULB).
 url_code: ""
 url_dataset: ""
 url_pdf: https://drive.google.com/file/d/1faSzJvOBg6o2Cfl7dYoAAjrOVs6AFibG/view
