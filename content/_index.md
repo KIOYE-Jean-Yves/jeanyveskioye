@@ -81,7 +81,7 @@ sections:
           Responsibilities include:
           * Research on variable selection methods
           * Data analysis
-          * Teachings (starting in September 2023)
+          * Teachings
       location: IUT Aurillac (France)
       title: PhD student in biostatistics
     - company: University of Technology of Troyes
@@ -251,7 +251,7 @@ sections:
     #   link: https://zoom.com
     #   name: Zoom Me
     directions: Departement of data science and cybersecurity, Phd student office
-    email: togo_jean_yves.kioye@uca.fr/kioyejeanyves@gmail.com
+    email: togo(underscore)jean(underscore)yves(dot)kioye(at)uca.fr/kioyejeanyves(at)gmail(dot)com
     # form:
     #   formspree:
     #     id: null
