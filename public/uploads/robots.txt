@@ -1,0 +1,7 @@
+
+User-agent: *
+Disallow: /private/
+Allow: /
+
+
+Sitemap: https://kioye-jean-yves.github.io/jeanyveskioye/sitemap.xml

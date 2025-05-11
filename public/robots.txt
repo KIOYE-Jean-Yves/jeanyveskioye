@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://KIOYE-Jean-Yves.github.io/jeanyveskioye/sitemap.xml
