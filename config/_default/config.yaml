@@ -5,11 +5,11 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: KIOYE Togo Jean Yves # Website name
-baseURL: "https://KIOYE-Jean-Yves.github.io/jeanyveskioye"" # Website URL
+baseURL: "https://KIOYE-Jean-Yves.github.io/jeanyveskioye" # Website URL
 
-[params]
-  description = "Togo Jean Yves KIOYE is a PhD student in biostatistics at Unité Mixte de recherche sur le Fromage Laboratory of Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)"
-  author = "Togo Jean Yves KIOYE"
+params:
+  description: "Togo Jean Yves KIOYE is a PhD student in biostatistics at Unité Mixte de recherche sur le Fromage Laboratory of Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)"
+  author: "Togo Jean Yves KIOYE"
 
 ############################
 ## LANGUAGE
