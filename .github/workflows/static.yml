@@ -33,11 +33,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Build with Hugo
+        run: hugo --minify # Cette étape génère le site dans le dossier './public'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
-          path: './public'
+          path: './public' # Spécifie le dossier contenant les fichiers générés par Hugo
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
