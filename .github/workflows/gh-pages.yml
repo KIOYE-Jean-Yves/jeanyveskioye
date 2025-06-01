@@ -1,0 +1,19 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build site
+      run: hugo --minify
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v2
+      with:
+        # Pas besoin de passer run_id normalement
+
