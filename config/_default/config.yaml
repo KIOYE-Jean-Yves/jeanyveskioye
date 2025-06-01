@@ -38,7 +38,9 @@ module:
 enableGitInfo: false
 summaryLength: 30
 pagination:
+  disableAliases: false
   pagerSize: 10
+  path: page
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
