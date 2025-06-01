@@ -8,7 +8,7 @@ title: KIOYE Togo Jean Yves # Website name
 baseURL: "https://KIOYE-Jean-Yves.github.io/jeanyveskioye" # Website URL
 
 params:
-  description: "Togo Jean Yves KIOYE is a PhD student in biostatistics at Unité Mixte de recherche sur le Fromage Laboratory of Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)"
+  description: "Togo Jean Yves KIOYE is a PhD student in biostatistics at Unité Mixte de recherche sur le Fromage"
   author: "Togo Jean Yves KIOYE"
 
 ############################
