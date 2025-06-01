@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.2
+      HUGO_VERSION: 0.111.3
     steps:
       - name: Install Hugo CLI
         run: |
@@ -41,26 +41,15 @@ jobs:
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Cache Restore
-        id: cache-restore
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            ${{ runner.temp }}/hugo_cache
-          key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
-      - name: Configure Git
-        run: git config core.quotepath false
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -72,7 +61,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
