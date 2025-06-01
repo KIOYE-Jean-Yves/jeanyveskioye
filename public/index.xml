@@ -243,131 +243,6 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     </item>
     
     <item>
-      <title>Slides</title>
-      <link>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  Three
-&lt;/span&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/media/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -381,6 +256,194 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/publication/preprint/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</guid>
+      <description>&lt;h1 id=&#34;---&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;authors-&#34;&gt;authors: []&lt;/h1&gt;
+&lt;h1 id=&#34;categories-&#34;&gt;categories: []&lt;/h1&gt;
+&lt;h1 id=&#34;date-2019-02-05t000000z&#34;&gt;date: &amp;ldquo;2019-02-05T00:00:00Z&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;slides&#34;&gt;slides:&lt;/h1&gt;
+&lt;h1 id=&#34;highlight_style-dracula&#34;&gt;highlight_style: dracula&lt;/h1&gt;
+&lt;h1 id=&#34;theme-black&#34;&gt;theme: black&lt;/h1&gt;
+&lt;h1 id=&#34;summary-an-introduction-to-using-wowchemys-slides-feature&#34;&gt;summary: An introduction to using Wowchemy&amp;rsquo;s Slides feature.&lt;/h1&gt;
+&lt;h1 id=&#34;tags-&#34;&gt;tags: []&lt;/h1&gt;
+&lt;h1 id=&#34;title-slides&#34;&gt;title: Slides&lt;/h1&gt;
+&lt;h1 id=&#34;----1&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-create-slides-in-markdown-with-wowchemy&#34;&gt;# Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;wowchemyhttpswowchemycom--documentationhttpswowchemycomdocscontentslides&#34;&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-2&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----2&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-3&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-features&#34;&gt;## Features&lt;/h1&gt;
+&lt;h1 id=&#34;heading-4&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--efficiently-write-slides-in-markdown&#34;&gt;- Efficiently write slides in Markdown&lt;/h1&gt;
+&lt;h1 id=&#34;--3-in-1-create-present-and-publish-your-slides&#34;&gt;- 3-in-1: Create, Present, and Publish your slides&lt;/h1&gt;
+&lt;h1 id=&#34;--supports-speaker-notes&#34;&gt;- Supports speaker notes&lt;/h1&gt;
+&lt;h1 id=&#34;--mobile-friendly-slides&#34;&gt;- Mobile friendly slides&lt;/h1&gt;
+&lt;h1 id=&#34;heading-5&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----3&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-6&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-controls&#34;&gt;## Controls&lt;/h1&gt;
+&lt;h1 id=&#34;heading-7&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--next-right-arrow-or-space&#34;&gt;- Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--previous-left-arrow&#34;&gt;- Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--start-home&#34;&gt;- Start: &lt;code&gt;Home&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--finish-end&#34;&gt;- Finish: &lt;code&gt;End&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--overview-esc&#34;&gt;- Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--speaker-notes-s&#34;&gt;- Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--fullscreen-f&#34;&gt;- Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--zoom-alt--click&#34;&gt;- Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--pdf-exporthttpsrevealjscompdf-export&#34;&gt;- &lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-8&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----4&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-9&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-code-highlighting&#34;&gt;## Code Highlighting&lt;/h1&gt;
+&lt;h1 id=&#34;heading-10&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;inline-code-variable&#34;&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-11&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;code-block&#34;&gt;Code block:&lt;/h1&gt;
+&lt;h1 id=&#34;heading-12&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;python&#34;&gt;```python&lt;/h1&gt;
+&lt;h1 id=&#34;porridge--blueberry&#34;&gt;porridge = &amp;ldquo;blueberry&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;if-porridge--blueberry&#34;&gt;if porridge == &amp;ldquo;blueberry&amp;rdquo;:&lt;/h1&gt;
+&lt;h1 id=&#34;printeating&#34;&gt;print(&amp;ldquo;Eating&amp;hellip;&amp;rdquo;)&lt;/h1&gt;
+&lt;h1 id=&#34;heading-13&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;heading-14&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----5&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-15&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-math&#34;&gt;## Math&lt;/h1&gt;
+&lt;h1 id=&#34;heading-16&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;in-line-math-x--y--z&#34;&gt;In-line math: $x + y = z$&lt;/h1&gt;
+&lt;h1 id=&#34;heading-17&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;block-math&#34;&gt;Block math:&lt;/h1&gt;
+&lt;h1 id=&#34;heading-18&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-&#34;&gt;# $$&lt;/h1&gt;
+&lt;h1 id=&#34;-fleft-x-right--frac2left-x--4-rightleft-x---4-rightleft-x--4-rightleft-x--1-right&#34;&gt;# f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}&lt;/h1&gt;
+&lt;h1 id=&#34;--1&#34;&gt;# $$&lt;/h1&gt;
+&lt;h1 id=&#34;heading-19&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----6&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-20&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-fragments&#34;&gt;## Fragments&lt;/h1&gt;
+&lt;h1 id=&#34;heading-21&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;make-content-appear-incrementally&#34;&gt;Make content appear incrementally&lt;/h1&gt;
+&lt;h1 id=&#34;heading-22&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-23&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;-fragment--one--fragment-&#34;&gt;{{% fragment %}} One {{% /fragment %}}&lt;/h1&gt;
+&lt;h1 id=&#34;-fragment--two--fragment-&#34;&gt;{{% fragment %}} &lt;strong&gt;Two&lt;/strong&gt; {{% /fragment %}}&lt;/h1&gt;
+&lt;h1 id=&#34;-fragment--three--fragment-&#34;&gt;{{% fragment %}} Three {{% /fragment %}}&lt;/h1&gt;
+&lt;h1 id=&#34;heading-24&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;heading-25&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;press-space-to-play&#34;&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/h1&gt;
+&lt;h1 id=&#34;heading-26&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;span-classfragment--&#34;&gt;&lt;span class=&#34;fragment &#34; &gt;&lt;/h1&gt;
+&lt;p&gt;One
+&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;span-classfragment---1&#34;&gt;&lt;span class=&#34;fragment &#34; &gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;span-classfragment---2&#34;&gt;&lt;span class=&#34;fragment &#34; &gt;&lt;/h1&gt;
+&lt;p&gt;Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heading-27&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----7&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-28&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;a-fragment-can-accept-two-optional-parameters&#34;&gt;A fragment can accept two optional parameters:&lt;/h1&gt;
+&lt;h1 id=&#34;heading-29&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--class-use-a-custom-style-requires-definition-in-custom-css&#34;&gt;- &lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/h1&gt;
+&lt;h1 id=&#34;--weight-sets-the-order-in-which-a-fragment-appears&#34;&gt;- &lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/h1&gt;
+&lt;h1 id=&#34;heading-30&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----8&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-31&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-speaker-notes&#34;&gt;## Speaker Notes&lt;/h1&gt;
+&lt;h1 id=&#34;heading-32&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;add-speaker-notes-to-your-presentation&#34;&gt;Add speaker notes to your presentation&lt;/h1&gt;
+&lt;h1 id=&#34;heading-33&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;markdown&#34;&gt;```markdown&lt;/h1&gt;
+&lt;h1 id=&#34;-speaker_note-&#34;&gt;{{% speaker_note %}}&lt;/h1&gt;
+&lt;h1 id=&#34;heading-34&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--only-the-speaker-can-read-these-notes&#34;&gt;- Only the speaker can read these notes&lt;/h1&gt;
+&lt;h1 id=&#34;--press-s-key-to-view&#34;&gt;- Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/h1&gt;
+&lt;h1 id=&#34;-speaker_note--1&#34;&gt;{{% /speaker_note %}}&lt;/h1&gt;
+&lt;h1 id=&#34;heading-35&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;heading-36&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;press-the-s-key-to-view-the-speaker-notes&#34;&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/h1&gt;
+&lt;h1 id=&#34;heading-37&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;hahahugoshortcodes3hbhb&#34;&gt;&lt;aside class=&#34;notes&#34;&gt;
+  &lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--only-the-speaker-can-read-these-notes&#34;&gt;- Only the speaker can read these notes&lt;/h1&gt;
+&lt;h1 id=&#34;--press-s-key-to-view&#34;&gt;- Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/h1&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;&lt;/h1&gt;
+
+&lt;/aside&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-38&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----9&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-39&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-themes&#34;&gt;## Themes&lt;/h1&gt;
+&lt;h1 id=&#34;heading-40&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--black-black-background-white-text-blue-links-default&#34;&gt;- black: Black background, white text, blue links (default)&lt;/h1&gt;
+&lt;h1 id=&#34;--white-white-background-black-text-blue-links&#34;&gt;- white: White background, black text, blue links&lt;/h1&gt;
+&lt;h1 id=&#34;--league-gray-background-white-text-blue-links&#34;&gt;- league: Gray background, white text, blue links&lt;/h1&gt;
+&lt;h1 id=&#34;--beige-beige-background-dark-text-brown-links&#34;&gt;- beige: Beige background, dark text, brown links&lt;/h1&gt;
+&lt;h1 id=&#34;--sky-blue-background-thin-dark-text-blue-links&#34;&gt;- sky: Blue background, thin dark text, blue links&lt;/h1&gt;
+&lt;h1 id=&#34;heading-41&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----10&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-42&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;--night-black-background-thick-white-text-orange-links&#34;&gt;- night: Black background, thick white text, orange links&lt;/h1&gt;
+&lt;h1 id=&#34;--serif-cappuccino-background-gray-text-brown-links&#34;&gt;- serif: Cappuccino background, gray text, brown links&lt;/h1&gt;
+&lt;h1 id=&#34;--simple-white-background-black-text-blue-links&#34;&gt;- simple: White background, black text, blue links&lt;/h1&gt;
+&lt;h1 id=&#34;--solarized-cream-colored-background-dark-green-text-blue-links&#34;&gt;- solarized: Cream-colored background, dark green text, blue links&lt;/h1&gt;
+&lt;h1 id=&#34;heading-43&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----11&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-44&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;hahahugoshortcodes4hbhb&#34;&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+&lt;/h1&gt;
+&lt;h1 id=&#34;heading-45&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-custom-slide&#34;&gt;## Custom Slide&lt;/h1&gt;
+&lt;h1 id=&#34;heading-46&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;customize-the-slide-style-and-background&#34;&gt;Customize the slide style and background&lt;/h1&gt;
+&lt;h1 id=&#34;heading-47&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;markdown-1&#34;&gt;```markdown&lt;/h1&gt;
+&lt;h1 id=&#34;-slide-background-imagemediaboardsjpg-&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}&lt;/h1&gt;
+&lt;h1 id=&#34;-slide-background-color0000ff-&#34;&gt;{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}&lt;/h1&gt;
+&lt;h1 id=&#34;-slide-classmy-style-&#34;&gt;{{&amp;lt; slide class=&amp;ldquo;my-style&amp;rdquo; &amp;gt;}}&lt;/h1&gt;
+&lt;h1 id=&#34;heading-48&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;heading-49&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----12&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-50&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-custom-css-example&#34;&gt;## Custom CSS Example&lt;/h1&gt;
+&lt;h1 id=&#34;heading-51&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;lets-make-headers-navy-colored&#34;&gt;Let&amp;rsquo;s make headers navy colored.&lt;/h1&gt;
+&lt;h1 id=&#34;heading-52&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;create-assetscssreveal_customcss-with&#34;&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/h1&gt;
+&lt;h1 id=&#34;heading-53&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;css&#34;&gt;```css&lt;/h1&gt;
+&lt;h1 id=&#34;reveal-section-h1&#34;&gt;.reveal section h1,&lt;/h1&gt;
+&lt;h1 id=&#34;reveal-section-h2&#34;&gt;.reveal section h2,&lt;/h1&gt;
+&lt;h1 id=&#34;reveal-section-h3-&#34;&gt;.reveal section h3 {&lt;/h1&gt;
+&lt;h1 id=&#34;color-navy&#34;&gt;color: navy;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-54&#34;&gt;}&lt;/h1&gt;
+&lt;h1 id=&#34;heading-55&#34;&gt;```&lt;/h1&gt;
+&lt;h1 id=&#34;heading-56&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;----13&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-57&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;-questions&#34;&gt;# Questions?&lt;/h1&gt;
+&lt;h1 id=&#34;heading-58&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;askhttpsdiscordggz8wnyzb&#34;&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-59&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;documentationhttpswowchemycomdocscontentslides&#34;&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/h1&gt;
+</description>
     </item>
     
   </channel>

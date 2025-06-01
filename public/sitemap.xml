@@ -134,24 +134,22 @@
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/publication/preprint/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/example/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/publication-type/article/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/categories/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://KIOYE-Jean-Yves.github.io/jeanyveskioye/slides/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
